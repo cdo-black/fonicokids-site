@@ -25,6 +25,9 @@ Route::get('/contacto', function () {
     return view('site.contacto');
 })->name('contacto');
 
+Route::get('/colegios', function () {
+    return view('site.colegios');
+})->name('colegios');
 
 
 Route::middleware([
