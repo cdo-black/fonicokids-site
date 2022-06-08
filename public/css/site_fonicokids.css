@@ -1,0 +1,842 @@
+@charset "UTF-8";
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Comfortaa", cursive;
+  background: white;
+}
+
+.icono {
+  background-image: url("../img/icon_tab.svg");
+  width: 30px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.break {
+  display: block;
+  content: "";
+}
+
+.padd_top {
+  padding-top: 12rem;
+}
+
+.padd_content_top {
+  padding-top: 12rem;
+}
+
+.padd_content_bottom {
+  padding-bottom: 12rem;
+}
+
+.marg_content_top {
+  margin-top: 7rem;
+}
+
+.marg_content_bottom {
+  margin-bottom: 7rem;
+}
+
+.padd_small_top {
+  padding-top: 7rem;
+}
+
+.padd_small_bottom {
+  padding-bottom: 7rem;
+}
+
+.bg_fucsia {
+  background-color: #e71d73;
+}
+
+.bg_amarillo {
+  background-color: #f6a219;
+}
+
+.bg_azul {
+  background-color: #2d2e83;
+}
+
+.bg_celeste {
+  background-color: #3cbff0;
+}
+
+.bg_am_claro {
+  background-color: #ffd832;
+}
+
+.bg_lila {
+  background-color: #8b5da3;
+}
+
+.bg_violeta {
+  background-color: blueviolet;
+}
+
+.color_fucsia {
+  color: #e71d73;
+}
+
+.color_amarillo {
+  color: #f6a219;
+}
+
+.color_azul {
+  color: #2d2e83;
+}
+
+.color_celeste {
+  color: #3cbff0;
+}
+
+.color_am_claro {
+  color: #ffd832;
+}
+
+.color_lila {
+  color: #8b5da3;
+}
+
+.tit_general {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+
+.btn_gral {
+  text-decoration: none !important;
+  background: white;
+  padding: 13px 25px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #2d2e83;
+  text-transform: uppercase;
+  border: solid 1px white;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.btn_gral:hover {
+  color: #2d2e83;
+  border: solid 1px white;
+  background-color: #f6a219;
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.btn_gral:focus {
+  outline: 0px;
+}
+
+.sombra {
+  -webkit-box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.2);
+          box-shadow: 6px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/*====================================================
+						MENU
+====================================================*/
+.navbar {
+  padding: 1rem 8rem !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.navbar.menu {
+  background-color: #e71d73;
+  padding: 1rem 5rem !important;
+  border-bottom: solid 4px #ffd832;
+}
+
+.navbar-brand {
+  padding-left: 1rem;
+  padding-top: 0;
+  margin: 0 !important;
+}
+
+.nav-link {
+  color: white !important;
+  width: 8rem;
+  text-align: center;
+  outline: 0px !important;
+}
+
+.bot {
+  color: white;
+  text-align: center;
+  outline: 0px !important;
+  text-align: right;
+}
+
+.bot li a {
+  text-decoration: none;
+  padding: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0.8;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  display: block;
+  margin-left: 30px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.bot li a:hover {
+  color: white;
+  opacity: 1;
+}
+
+.nav-pills .bot.active, .nav-pills .show > .bot {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  font-weight: 600;
+  opacity: 1;
+  border-radius: 50px;
+  padding: 0.8rem 1.5rem;
+  display: inline-block;
+  border: solid 1px rgba(255, 255, 255, 0.4);
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+}
+
+.navbar-light .navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.sticky-top {
+  top: 0;
+  z-index: 1900;
+  width: 100%;
+  position: fixed !important;
+}
+
+/*====================================================
+						TOP
+====================================================*/
+.bg_inicio {
+  background-image: url(../img/bg_top.jpg);
+  background-position: 35% bottom;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.tit_top {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.tit_top2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.redes_sociales a {
+  text-align: center;
+  margin: 0 15px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+  color: #2d2e83;
+}
+
+.redes_sociales a:hover {
+  color: white;
+}
+
+.img_nina1 {
+  mix-blend-mode: overlay;
+}
+
+.img_nina2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*====================================================
+				TIPS FONOAUDIOLOGO
+====================================================*/
+/*====================================================
+				INFO MAIN 
+====================================================*/
+.border_main {
+  border-radius: 20px;
+  margin: 2rem;
+}
+
+.tit_info_main {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.box_icon {
+  position: relative;
+  -webkit-transform: translateY(-1.5rem);
+          transform: translateY(-1.5rem);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.box_icon:hover {
+  margin-top: 0rem;
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
+  -webkit-filter: invert(100%);
+          filter: invert(100%);
+}
+
+.icon_info_main {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 35%;
+}
+
+/*====================================================
+				INFO NIÑOS 
+====================================================*/
+.bg_ninos {
+  background-image: url(../img/bg_ninos.jpg);
+  background-position: 65% center;
+  background-size: cover;
+  width: 100%;
+  height: 636px;
+}
+
+.box_ninos {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: solid 1px white;
+  border-radius: 10px;
+  max-width: 40%;
+}
+
+.solapa_inf_ninos {
+  position: absolute;
+  bottom: 0;
+}
+
+/*====================================================
+				 FOOTER
+====================================================*/
+/* .bg_top_footer {
+    background-image: url(../img/solapa_contacto.svg);
+    background-size: cover;
+    background-position: bottom left;
+    width: 100%;
+    height: 270px;
+    margin-bottom: -1px;
+} */
+.solapa_contacto {
+  position: absolute;
+  width: 100%;
+  top: 103px;
+}
+
+.rrss_footer a {
+  text-align: center;
+  margin: 0 15px;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 1.3rem;
+  text-decoration: none !important;
+  color: white;
+}
+
+.rrss_footer a:hover {
+  color: #f6a219;
+}
+
+.info_footer {
+  font-size: 1.1rem;
+}
+
+.info_footer a {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  text-decoration: none !important;
+  color: white;
+  font-weight: 600;
+}
+
+.info_footer a:hover {
+  color: #f6a219;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: transparent;
+  background-clip: padding-box;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  border-bottom: solid 1px #f6a219;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  color: #f6a219;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: transparent;
+  border-color: #ffd832;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form-floating > label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  height: 100%;
+  padding: 1rem 0.75rem;
+  pointer-events: none;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  -webkit-transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
+  letter-spacing: 0.1rem;
+  font-size: 0.9rem;
+  color: #ffd832;
+}
+
+textarea {
+  height: 10rem !important;
+}
+
+/*====================================================
+			PAGINAS INTERIORES ABSOLUTAS
+====================================================*/
+.img_solapa_portada {
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+}
+
+.frase_top {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.box_frase_top {
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*====================================================
+						NOSOTROS
+====================================================*/
+.bg_nosotros {
+  background-image: url(../img/bg_nosotros2.jpg);
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+  height: 60vh;
+}
+
+.borde_am {
+  border-radius: 30px 0px 0px 30px;
+}
+
+.borde_lila {
+  border-radius: 0px 30px 30px 0px;
+}
+
+.bg_trabajo_equipo {
+  background-image: url(../img/bg_trabajo_equipo.jpg);
+  background-size: cover;
+  background-position: 20% center;
+  width: 100%;
+  height: 45vh;
+}
+
+.box_trabajo_equipo {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: solid 1px white;
+  max-width: 45%;
+}
+
+.solapa_inferior {
+  position: absolute;
+  width: 100%;
+  bottom: -2px;
+}
+
+/* GALERÍA IMÁGENES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.image-grid figure {
+  margin-bottom: 0;
+}
+
+.cont_img {
+  display: block !important;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.image-grid img {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.image-grid a:hover img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.fondo_color {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  opacity: 0.6;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  mix-blend-mode: hard-light;
+  z-index: 1;
+}
+
+.fondo_color:hover {
+  opacity: 0;
+}
+
+.lightbox-modal .modal-content {
+  background: #242424;
+}
+
+.lightbox-modal .btn-close {
+  position: absolute;
+  top: -34px;
+  right: 0px;
+  font-size: 1.2rem;
+  z-index: 1;
+}
+
+.btn-close:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: 1;
+}
+
+.lightbox-modal .modal-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  text-align: center;
+}
+
+.lightbox-modal img {
+  width: auto;
+  max-height: 100vh;
+  max-width: 100%;
+  border: solid 1px white;
+}
+
+.lightbox-modal .carousel-caption {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+}
+
+.lightbox-modal .carousel-control-prev,
+.lightbox-modal .carousel-control-next {
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: auto;
+}
+
+.lightbox-modal .carousel-control-prev {
+  left: 10px;
+}
+
+.lightbox-modal .carousel-control-next {
+  right: 10px;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: 0;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.aspect-ratio-1-1 {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* Crop the image so as not to distort it */
+  -o-object-position: center;
+     object-position: center;
+}
+
+/*====================================================
+						SERVICIOS
+====================================================*/
+.bg_servicios {
+  background-image: url(../img/bg_servicios.jpg);
+  background-size: cover;
+  background-position: 34% center;
+  width: 100%;
+  height: 60vh;
+}
+
+.box_terapias {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5rem 2rem 2rem 2rem;
+  border-radius: 10px;
+  margin: 3rem 0;
+}
+
+.border_box_amarillo {
+  border: solid 1px #f6a219;
+}
+
+.border_box_celeste {
+  border: solid 1px #3cbff0;
+}
+
+.border_box_am_claro {
+  border: solid 1px #ffd832;
+}
+
+.box_terapias_numero {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 320px) {
+  .navbar {
+    padding: 1rem !important;
+    background-color: #e71d73;
+    border-bottom: solid 1px #f6a219;
+  }
+
+  .navbar.menu {
+    padding: 1rem !important;
+  }
+
+  .nav-link {
+    text-align: left;
+    width: auto;
+  }
+
+  .bot li a {
+    padding-top: 2rem;
+  }
+
+  .box_ninos {
+    max-width: 100%;
+  }
+
+  .box_trabajo_equipo {
+    max-width: 100%;
+  }
+
+  .borde_am {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .borde_lila {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+@media (min-width: 320.98px) and (max-width: 576.98px) {
+  .navbar {
+    padding: 1rem !important;
+    background-color: #e71d73;
+    border-bottom: solid 1px #f6a219;
+  }
+
+  .navbar.menu {
+    padding: 1rem !important;
+  }
+
+  .nav-link {
+    text-align: left;
+    width: auto;
+  }
+
+  .bot li a {
+    padding-top: 2rem;
+  }
+
+  .box_ninos {
+    max-width: 100%;
+  }
+
+  .box_trabajo_equipo {
+    max-width: 100%;
+  }
+
+  .borde_am {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .borde_lila {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    padding: 1rem !important;
+    background-color: #e71d73;
+    border-bottom: solid 1px #f6a219;
+  }
+
+  .navbar.menu {
+    padding: 1rem !important;
+  }
+
+  .nav-link {
+    text-align: right;
+    width: auto;
+  }
+
+  .bot li a {
+    padding-top: 2rem;
+  }
+
+  .box_ninos {
+    max-width: 100%;
+  }
+
+  .box_trabajo_equipo {
+    max-width: 100%;
+  }
+
+  .borde_am {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .borde_lila {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar {
+    padding: 1rem !important;
+    background-color: #e71d73;
+    border-bottom: solid 1px #f6a219;
+  }
+
+  .navbar.menu {
+    padding: 1rem !important;
+  }
+
+  .bot li a {
+    padding-top: 2rem;
+  }
+
+  .box_ninos {
+    max-width: 100%;
+  }
+
+  .box_trabajo_equipo {
+    max-width: 100%;
+  }
+
+  .borde_am {
+    border-radius: 30px 30px 0px 0px;
+  }
+
+  .borde_lila {
+    border-radius: 0px 0px 30px 30px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .bot li a {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .bot li a {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 1920px) {
+  .bot li a {
+    padding-top: 10px;
+  }
+}/*# sourceMappingURL=site_fonicokids.css.map */

@@ -21,13 +21,12 @@ Route::get('/nosotros', function () {
     return view('site.nosotros');
 })->name('nosotros');
 
-Route::get('/contacto', function () {
-    return view('site.contacto');
-})->name('contacto');
+Route::get('/servicios', function () {
+    return view('site.servicios');
+})->name('servicios');
 
-Route::get('/colegios', function () {
-    return view('site.colegios');
-})->name('colegios');
+
+
 
 
 Route::middleware([

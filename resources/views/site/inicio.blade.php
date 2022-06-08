@@ -1,95 +1,130 @@
 @extends('layouts.site')
+@section('titulo', 'Bienvenidos')
 @section('inicio', 'active')
 
 @section('contenido')
-<section class="container padd_content_top">
-            <div class="row justify-content-center m-0 m-lg-1">
-                <article class="col-12 col-md-6 text-center color_celeste border_general mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                    <h1 class="tit_general pb-3">Colegios</h1>
-                    <p>Nuestra prioridad es informar y enseñar sobre la diversidad de especies marinas, sus cuidados y vida de estas, y es importante poder trasmitir eso como un objetivo para nuestros estudiantes. <br>
-                        Realizamos los recorridos guiados por un especialista en las ciencias del mar, quien relata por 30 minutos lo que los estudiantes observan en el Acuario, entregando información del hábitat, alimentación, reproducción y muchas más cosas de las especies. </p>
-                </article>
-            </div>
-        </section>
-      
-            
-        <article class="container-fluid bg_blanco padd_content_bottom ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 galeria wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
-                        <a class="img_1"></a>
-                        <a class="img_2"> </a>
-                        <a class="img_3"></a>
-                        <a class="img_4"></a>
-                        <a class="img_5"></a>
-                        <a class="img_6"></a>
-                    </div>
+    <div class="container-fluid bg_inicio d-flex align-items-center justify-content-center padd_content_top padd_small_bottom">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 ">
+                <h1 class="tit_top">Jugando </h1>
+                <h2 class="tit_top2 pb-3">nos comunicamos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium explicabo odio repellendus repudiandae odit fugiat minus nihil at consequuntur earum.</p>
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=56993301174" tarjet="blank"><button class="btn_gral mt-3">Conversemos</button></a>
+                </div>
+
+                <div class="redes_sociales d-inline-flex pt-5">
+                    <a href="/" target="_blank">
+                        <div class=""><i class="fab fa-facebook-f"></i></div>
+                    </a>
+                    <a href="/" target="_blank">
+                        <div class=""><i class="fab fa-instagram"></i></div>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=56993301174" target="_blank">
+                        <div class=""><i class="fab fa-whatsapp"></i></div>
+                    </a> 
+                    <a href="mailto:contacto@bfonicokids.cl"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-        </article>
-      
 
-        <section class="container padd_content_bottom">
-            <div class="row justify-content-evenly m-0 m-lg-1">
-                <article class="col-12 col-lg-3 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <h1 class="tit_general pb-3">Metodología de enseñanza</h1>
-                    <p>Nuestros recorridos son adaptados para el curso que nos visita, recibimos estudiantes desde la educación infantil, básica, media, hasta estudiantes universitarios.  Enfocados en el curriculum Nacional de Ciencias.</p>
-                </article>
-
-                <article class="col-12 col-lg-3 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                    <h1 class="tit_general pb-3">Material de Apoyo complementario</h1>
-                    <p>Para potenciar aún más la educación de cada alumno, enviaremos una guía de material de apoyo complementario a tu visita pedagógica con preguntas para realizar en el salón de clases, posterior a la visita de nuestro acuario. </p>
-                </article>
-
-                <article class="col-12 col-lg-3 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-                    <h1 class="tit_general pb-3">Reservas Educacionales 2022</h1>
-                    <p>Estudiante $2.500 <br>
-                        Adultos $3.500 <br>
-                        Horario: 09:00 a 17:30 hrs.
-                    </p>
-                </article>
-                
-                <article class="col-12 col-lg-6 text-center border_general color_celeste mb-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-                    <h1 class="tit_general pb-3">Recorrido de cursos</h1>
-                    <p>Disfruta de nuestros recorridos guiados <br><br>
-                    - Capacidad para 10 alumnos más la compañía de un profesor, educador o adulto responsable. <br>
-                    - El recorrido abarca 3 pisos, acceso solo por escaleras. <br>
-                    - Duración 30 minutos. <br>
-                    - Los grupos ingresan al recinto cada 15 minutos (se mantiene un grupo por piso, para mantener el aforo). <br>
-                    - Los recorridos deben ser reservados, por vía mail o teléfono. <br>
-                    - Contamos con Protocolo COVID-19. <br><br>
-                    <span class="fw-bold">Para mayor información: <br>
-                                            <span class="mail_colegio">educacion@acuariovalparaiso.cl</span><br>
-                                            +569 76039703</span>
-                    </p>
-                </article>
+            <div class="col-12 col-md-6 col-lg-5 order-md-1 pb-5 position-relative">
+                <img src="img/top_nina1.png" class="img-fluid img_nina1" alt="">
+                <img src="img/top_nina2.png" class="img-fluid img_nina2" alt="">
             </div>
-        </section>
-      
-      
-        <section class="container">
-            <div class="row">
-                <h1 class="tit_general color_celeste pb-5">Equipo</h1>
-                <article class="col-12 col-md-4 col-lg-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-                    <img src="img/equipo1_Pedro.jpg" class="img_equipo" alt="imagen equipo">
-                    <h2 class="nombre_equipo pt-4">Pedro <br>Mohana</h2>
-                    <p class="color_celeste pb-5">Director General Acuario</p>
-                </article>
+        </div>
+    </div>
 
-                <article class="col-12 col-md-4 col-lg-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
-                    <img src="img/equipo2_Romina.jpg" class="img_equipo" alt="imagen equipo">
-                    <h2 class="nombre_equipo pt-4">Romina <br>Basaes</h2>
-                    <p class="color_celeste pb-5">Administrador Acuario</p>
-                </article>
-
-                <article class="col-12 col-md-4 col-lg-3 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="1.5s">
-                    <img src="img/equipo3_Yelika.jpg" class="img_equipo" alt="imagen equipo">
-                    <h2 class="nombre_equipo pt-4">Yelika <br>Henríquez</h2>
-                    <p class="color_celeste pb-5">Área Eduación</p>
-                </article>
+    <div class="container padd_small_bottom">
+        <div class="row justify-content-evenly align-items-center pt-5">
+            <div class="col-12 col-md-5 col-lg-3 text-center text-md-start">
+                <img src="img/Logo_fonico_color.svg" height="200" alt="">
             </div>
-        </section>
-      
-       
-        <div class="container-fluid bg_sponsors"></div>
+
+            <div class="col-12 col-md-6 col-lg-6 pt-5 text-center">
+                <h1 class="tit_general pb-3">Fonicokids</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero cupiditate similique quis nobis, ipsam autem culpa? Perferendis, dolore, expedita, sit quasi beatae ipsam ab earum corrupti culpa esse nam pariatur ipsa autem quidem. Delectus perspiciatis commodi enim praesentium error provident.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg_am_claro py-5">
+        <div class="row align-items-center justify-content-evenly">
+            <div class="col-12 col-md-5 col-lg-4 py-5 text-center">
+                <img src="img/img_fono.png" class="img-fluid" alt="">
+            </div>
+
+            <div class="col-12 col-md-5 col-lg-6 py-5 text-center">
+                <h1 class="tit_general pb-3">¿Cuándo ver a un Fonoaudiólogo?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam modi veniam, porro recusandae incidunt voluptatum alias quod obcaecati ipsa perferendis 
+
+                - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sint ipsam eos non, alias ex! <br><br> 
+                - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sint ipsam eos non, alias ex! <br><br> 
+                - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore sint ipsam eos non, alias ex! <br><br> 
+                </p>
+
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=56993301174" target="blank"><button class="btn_gral mt-3">Conversemos</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padd_content_top padd_content_bottom mt-4">
+        <div class="row justify-content-center">
+            <div class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
+                <div class="box_icon">
+                    <img src="img/main_info_top1.svg" class="" alt="">
+                    <img src="img/icon_1.svg" height="90" class="icon_info_main" alt="">
+                </div>
+
+                <h1 class="tit_info_main py-3 px-3">aprende con <br>Nosotros</h1>
+                <p class="px-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores velit, debitis soluta numquam vero?</p>
+            </div>
+
+            <div class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
+                <div class="box_icon">
+                    <img src="img/main_info_top2.svg" class="" alt="">
+                    <img src="img/icon_2.svg" height="90" class="icon_info_main" alt="">
+                </div>
+
+                <h1 class="tit_info_main py-3 px-3">Diversión <br>Garantizada</h1>
+                <p class="px-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores velit, debitis soluta numquam vero?</p>
+            </div>
+
+            <div class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
+                <div class="box_icon">
+                    <img src="img/main_info_top3.svg" class="" alt="">
+                    <img src="img/icon_3.svg" height="90" class="icon_info_main" alt="">
+                </div>
+
+                <h1 class="tit_info_main py-3 px-3">Seguridad y <br>Protección</h1>
+                <p class="px-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores velit, debitis soluta numquam vero?</p>
+            </div>
+
+            <div class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
+                <div class="box_icon">
+                    <img src="img/main_info_top4.svg" class="" alt="">
+                    <img src="img/icon_4.svg" height="90" class="icon_info_main" alt="">
+                </div>
+
+                <h1 class="tit_info_main py-3 px-3">Comunicación <br>Directa</h1>
+                <p class="px-3 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores velit, debitis soluta numquam vero?</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="marg_content_bottom position-relative">
+        <div class="container-fluid bg_ninos  d-flex">
+            <div class="row p-4 justify-content-center align-items-center">
+                <div class="col-11 col-lg-8 box_ninos me-0 me-lg-5 text-center">
+                    <h1 class="tit_general">Lo mejor para nuestros Hijos</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maiores saepe nemo impedit magnam.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0 solapa_inferior">
+            <img src="img/solapa_inferior.svg" alt="">
+        </div>
+    </div>
+    
 @endsection
