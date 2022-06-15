@@ -22,6 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 
 	<script src="{{ asset('js/fontawesome.js') }}"></script>
+	@livewireStyles
 
   </head>
     <body>
@@ -76,15 +77,18 @@
                 </div>
 
                 <div class="col-11 col-lg-5 mx-0 mx-lg-3 py-5">
-                    
+                    @livewire('contact-form')
                 </div>
             </div>
         </div>
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ ('js/menu.js') }}"></script>
+        <script src="{{ asset('js/menu.js') }}"></script>
         <script src="{{ asset('js/index.bundle.min.js') }}"></script>
         <!-- <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script> -->
+        @livewireScripts
+		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+		<x-livewire-alert::scripts />
     </body>
 </html>
