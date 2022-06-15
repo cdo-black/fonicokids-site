@@ -76,36 +76,7 @@
                 </div>
 
                 <div class="col-11 col-lg-5 mx-0 mx-lg-3 py-5">
-                    <form action="">
-                        <div class="row justify-content-evenly">
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Nombres">
-                                <label for="floatingInput">Nombres</label>
-                            </div>
-
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Apellidos">
-                                <label for="floatingInput">Apellidos</label>
-                            </div>
-                            
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="number" class="form-control" id="floatingInput" placeholder="Teléfono">
-                                <label for="floatingInput">Teléfono</label>
-                            </div>
-
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
-                                <label for="floatingInput">Email</label>
-                            </div>
-
-                            <div class="col-12 form-floating mb-4">
-                                <textarea  rows="10" class="form-control" id="floatingInput" placeholder="Mensaje" style="resize: none"></textarea>
-                                <label for="floatingInput">Mensaje</label>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn_gral mt-4">Enviar</button>
-                    </form>
+                    
                 </div>
             </div>
         </div>

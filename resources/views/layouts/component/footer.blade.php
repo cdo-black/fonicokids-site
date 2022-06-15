@@ -35,7 +35,7 @@
                             <div class="d-block d-lg-inline-block ms-0 ms-lg-3">
                                 <h1 class="tit_info m-0">Formulario</h1>
                                 <div class="info_footer">
-                                    <a href="contacto.php#Contacto">Formulario de Contacto</a>
+                                    <a href="#Contacto">Formulario de Contacto</a>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                             <div class="d-block d-lg-inline-block ms-0 ms-lg-3">
                                 <h1 class="tit_info m-0">Mapa</h1>
                                 <div class="info_footer">
-                                    <a href="contacto.php#Mapa">Aquí Estamos</a>
+                                    <a href="#Mapa">Aquí Estamos</a>
                                 </div>
                             </div>
                         </div>
