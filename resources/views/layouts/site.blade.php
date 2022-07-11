@@ -47,72 +47,11 @@
       
         @yield('contenido')
 
-        <div id="Contacto" class="container-fluid marg_content_top p-0">
-            <img src="img/solapa_contacto.svg" alt="">
-        </div>
-        <div class="container-fluid bg_azul">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-11 col-lg-3 text-white text-center mx-0 mx-lg-3 py-5">
-                    <img src="img/Logo_fonico_color2.svg" class="pb-5" height="160" alt="">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatibus nesciunt, soluta voluptatum eligendi nisi esse exercitationem?</p>
-
-                    <div class="info_footer mt-4">
-                        <div class="pb-3"><a href="mailto:contacto@fonicokids.cl"><i class="fas fa-envelope"></i>&nbsp;&nbsp; contacto@fonicokids.cl</a></div>
-                        <div class="pb-3"><a href="https://api.whatsapp.com/send?phone=56993301174" target="blank"><i class="fab fa-whatsapp"></i>&nbsp;&nbsp; +569 9330 1174</a></div>
-                    </div>
-
-                    <div class="rrss_footer d-inline-flex">
-                        <a href="/" target="blank">
-                            <div class=""><i class="fab fa-facebook-f"></i></div>
-                        </a>
-                        <a href="/" target="blank">
-                            <div class=""><i class="fab fa-instagram"></i></div>
-                        </a>
-                        <a href="tel:+56993301174">
-                            <div class=""><i class="fas fa-phone-alt"></i></div>
-                        </a> 
-                        <a href="mailto:contacto@bigbang.cl.cl"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-
-                <div class="col-11 col-lg-5 mx-0 mx-lg-3 py-5">
-                    <form action="">
-                        <div class="row justify-content-evenly">
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Nombres">
-                                <label for="floatingInput">Nombres</label>
-                            </div>
-
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="text" class="form-control" id="floatingInput" placeholder="Apellidos">
-                                <label for="floatingInput">Apellidos</label>
-                            </div>
-                            
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="number" class="form-control" id="floatingInput" placeholder="Teléfono">
-                                <label for="floatingInput">Teléfono</label>
-                            </div>
-
-                            <div class="col-12 col-md-6 form-floating mb-4">
-                                <input type="email" class="form-control" id="floatingInput" placeholder="Email">
-                                <label for="floatingInput">Email</label>
-                            </div>
-
-                            <div class="col-12 form-floating mb-4">
-                                <textarea  rows="10" class="form-control" id="floatingInput" placeholder="Mensaje" style="resize: none"></textarea>
-                                <label for="floatingInput">Mensaje</label>
-                            </div>
-                        </div>
-
-                        <button type="submit" class="btn_gral mt-4">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </div>
+        @include('layouts.component.footer')
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ ('js/menu.js') }}"></script>
+        <script src="{{ asset('js/menu.js') }}"></script>
         <script src="{{ asset('js/index.bundle.min.js') }}"></script>
         <!-- <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script> -->
     </body>

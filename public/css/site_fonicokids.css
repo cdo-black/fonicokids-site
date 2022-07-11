@@ -322,17 +322,8 @@ body {
   background-position: 65% center;
   background-size: cover;
   width: 100%;
-  height: 636px;
-}
-
-.box_ninos {
-  background: rgba(255, 255, 255, 0.5);
-  padding: 2rem;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border: solid 1px white;
-  border-radius: 10px;
-  max-width: 40%;
+  height: 100%;
+  min-height: 700px;
 }
 
 .solapa_inf_ninos {
@@ -385,6 +376,43 @@ body {
 
 .info_footer a:hover {
   color: #f6a219;
+}
+
+.bg_piePagina {
+  border-top: 1px solid rgba(60, 191, 240, 0.5);
+  background: #2d2e83;
+}
+
+.piePagina {
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  opacity: 0.9;
+  color: #3cbff0;
+}
+
+.btn_piePagina {
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #3cbff0;
+  opacity: 0.8;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.btn_piePagina:hover {
+  color: #3cbff0;
+  opacity: 1;
+}
+
+.btn_piePagina:focus {
+  outline: 0px;
+}
+
+.icon_arios {
+  background-color: #3cbff0;
+  width: 100%;
 }
 
 .form-control {
@@ -466,6 +494,17 @@ textarea {
   text-align: center;
 }
 
+.box_ninos {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: solid 1px white;
+  border-radius: 10px;
+  max-width: 40%;
+  margin-top: -60px;
+}
+
 /*====================================================
 						NOSOTROS
 ====================================================*/
@@ -487,25 +526,10 @@ textarea {
 
 .bg_trabajo_equipo {
   background-image: url(../img/bg_trabajo_equipo.jpg);
+  background-position: 55% center;
   background-size: cover;
-  background-position: 20% center;
   width: 100%;
-  height: 45vh;
-}
-
-.box_trabajo_equipo {
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 2rem;
-  border-radius: 10px;
-  position: absolute;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-  -webkit-backdrop-filter: blur(5px);
-          backdrop-filter: blur(5px);
-  border: solid 1px white;
-  max-width: 45%;
+  height: 700px;
 }
 
 .solapa_inferior {
@@ -642,8 +666,7 @@ textarea {
 .aspect-ratio-1-1 {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
-  /* Crop the image so as not to distort it */
+     object-fit: cover; /* Crop the image so as not to distort it */
   -o-object-position: center;
      object-position: center;
 }
@@ -664,6 +687,35 @@ textarea {
   padding: 5rem 2rem 2rem 2rem;
   border-radius: 10px;
   margin: 3rem 0;
+}
+
+.box_tratamientos {
+  height: 450px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  display: grid;
+}
+
+.border_convenios {
+  border-right: solid 1px black;
+}
+
+.bg_convenios {
+  border-radius: 30px;
+  background: lightsteelblue;
+}
+
+.img_isapres {
+  height: 85px;
+  opacity: 0.7;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: 0 25px;
+}
+
+.img_isapres:hover {
+  opacity: 1;
 }
 
 .border_box_amarillo {
@@ -692,34 +744,33 @@ textarea {
     background-color: #e71d73;
     border-bottom: solid 1px #f6a219;
   }
-
   .navbar.menu {
     padding: 1rem !important;
   }
-
   .nav-link {
     text-align: left;
     width: auto;
   }
-
   .bot li a {
     padding-top: 2rem;
   }
-
   .box_ninos {
     max-width: 100%;
   }
-
   .box_trabajo_equipo {
     max-width: 100%;
   }
-
   .borde_am {
     border-radius: 30px 30px 0px 0px;
   }
-
   .borde_lila {
     border-radius: 0px 0px 30px 30px;
+  }
+  .box_ninos {
+    margin-top: 0px;
+  }
+  .border_convenios {
+    border-right: none;
   }
 }
 @media (min-width: 320.98px) and (max-width: 576.98px) {
@@ -728,34 +779,33 @@ textarea {
     background-color: #e71d73;
     border-bottom: solid 1px #f6a219;
   }
-
   .navbar.menu {
     padding: 1rem !important;
   }
-
   .nav-link {
     text-align: left;
     width: auto;
   }
-
   .bot li a {
     padding-top: 2rem;
   }
-
   .box_ninos {
     max-width: 100%;
   }
-
   .box_trabajo_equipo {
     max-width: 100%;
   }
-
   .borde_am {
     border-radius: 30px 30px 0px 0px;
   }
-
   .borde_lila {
     border-radius: 0px 0px 30px 30px;
+  }
+  .box_ninos {
+    margin-top: 0px;
+  }
+  .border_convenios {
+    border-right: none;
   }
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -764,34 +814,33 @@ textarea {
     background-color: #e71d73;
     border-bottom: solid 1px #f6a219;
   }
-
   .navbar.menu {
     padding: 1rem !important;
   }
-
   .nav-link {
     text-align: right;
     width: auto;
   }
-
   .bot li a {
     padding-top: 2rem;
   }
-
   .box_ninos {
     max-width: 100%;
   }
-
   .box_trabajo_equipo {
     max-width: 100%;
   }
-
   .borde_am {
     border-radius: 30px 30px 0px 0px;
   }
-
   .borde_lila {
     border-radius: 0px 0px 30px 30px;
+  }
+  .box_ninos {
+    margin-top: 0px;
+  }
+  .border_convenios {
+    border-right: none;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -800,29 +849,29 @@ textarea {
     background-color: #e71d73;
     border-bottom: solid 1px #f6a219;
   }
-
   .navbar.menu {
     padding: 1rem !important;
   }
-
   .bot li a {
     padding-top: 2rem;
   }
-
   .box_ninos {
     max-width: 100%;
   }
-
   .box_trabajo_equipo {
     max-width: 100%;
   }
-
   .borde_am {
     border-radius: 30px 30px 0px 0px;
   }
-
   .borde_lila {
     border-radius: 0px 0px 30px 30px;
+  }
+  .box_ninos {
+    margin-top: 0px;
+  }
+  .border_convenios {
+    border-right: none;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
