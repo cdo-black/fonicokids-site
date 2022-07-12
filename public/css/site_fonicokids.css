@@ -357,6 +357,15 @@ body {
   top: 103px;
 }
 
+.solapa_footer {
+  position: absolute;
+  /*  top: 0; */
+  left: 0;
+  /* transform: translate(-50% -50%); */
+  width: 100%;
+  bottom: -1px;
+}
+
 .rrss_footer a {
   text-align: center;
   margin: 0 15px;

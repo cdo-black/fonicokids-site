@@ -48,11 +48,12 @@
       
         @yield('contenido')
 
-        <div id="Contacto" class="container-fluid marg_content_top p-0 text-center">
-            <img src="img/solapa_contacto.svg" alt="">
+        
+        <div class="marg_content_top position-relative">
+            <img src="img/solapa_contacto.svg" class="solapa_footer" alt="">
         </div>
-
-        <footer class="container-fluid bg_azul pb-4">
+        <footer id="Contacto" class="container-fluid bg_azul pb-4 ">
+        
             <div class="row justify-content-center align-items-center">
                 <section class="col-11 col-lg-3 text-white text-center mx-0 mx-lg-3 py-5">
                     <img src="img/Logo_fonico_color2.svg" class="pb-5" height="160" alt="Logo Fonicokids">
