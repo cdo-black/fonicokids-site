@@ -22,7 +22,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
 
 	<script src="{{ asset('js/fontawesome.js') }}"></script>
-	<!-- @livewireStyles -->
+	@livewireStyles
 
   </head>
     <body>

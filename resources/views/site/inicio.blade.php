@@ -3,7 +3,7 @@
 @section('inicio', 'active')
 
 @section('contenido')
-    <section class="container-fluid bg_inicio d-flex align-items-center justify-content-center padd_content_top padd_small_bottom">
+    <section class="container-fluid bg_inicio d-flex align-items-center justify-content-center padd_content_top padd_small_bottom position-relative">
         <div class="row align-items-center justify-content-center">
             <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 ">
                 <h1 class="tit_top">Jugando </h1>
@@ -31,6 +31,10 @@
                 <img src="img/top_nina1.png" class="img-fluid img_nina1" alt="Niña Fonicokids">
                 <img src="img/top_nina2.png" class="img-fluid img_nina2" alt="Niña Fonicokids">
             </article>
+
+            <div class="">
+                <img src="img/Solapa_portada.svg" class="solapa_top" alt="">
+            </div>
         </div>
     </section>
 
@@ -137,5 +141,4 @@
             <img src="img/solapa_inferior.svg" alt="">
         </div>
     </section>
-    
 @endsection

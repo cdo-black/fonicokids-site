@@ -240,6 +240,15 @@ body {
     height: 100%;
 }
 
+.solapa_top {
+    position: absolute;
+   /*  top: 0; */
+    left: 0;
+    /* transform: translate(-50% -50%); */
+    width: 100%;
+    bottom: -1px;;
+}
+
 .tit_top {
     font-size: 3rem;
     text-transform: uppercase;
