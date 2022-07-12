@@ -48,7 +48,7 @@
       
         @yield('contenido')
 
-        <div id="Contacto" class="container-fluid marg_content_top p-0">
+        <div id="Contacto" class="container-fluid marg_content_top p-0 text-center">
             <img src="img/solapa_contacto.svg" alt="">
         </div>
 
