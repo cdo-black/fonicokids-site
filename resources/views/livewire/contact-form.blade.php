@@ -13,7 +13,7 @@
         </div>
                             
         <div class="col-12 col-md-6 form-floating mb-4">
-            <input type="number" class="form-control" wire:model.defer="telefono" placeholder="Teléfono">
+            <input type="text" class="form-control" wire:model.defer="telefono" placeholder="Teléfono">
             <label for="floatingInput">Teléfono</label>
             @error('telefono') <span class="text-danger">{{ $message }}</span> @enderror
         </div>

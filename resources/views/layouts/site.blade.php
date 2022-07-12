@@ -17,9 +17,9 @@
       
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/site_fonicokids.css" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
 
 	<script src="{{ asset('js/fontawesome.js') }}"></script>
 	@livewireStyles
@@ -36,8 +36,8 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
-                    <ul class="navbar-nav text-end nav-pills bot">
-                        <li><a href="{{ route('inicio') }}" class="@yield('inicio') bot">INICIO</a></li>
+                    <ul class="navbar-nav text-end nav-pills bot py-3 py-lg-0 pe-3 pe-lg-0">
+                        <li><a href="{{ route('inicio') }}" class="@yield('inicio') bot my-3 my-lg-0">INICIO</a></li>
                         <li><a href="{{ route('nosotros') }}" class="@yield('nosotros') bot">NOSOTROS</a></li>
                         <li><a href="{{ route('servicios') }}" class="@yield('servicios') bot">SERVICIOS</a></li>
                         <li><a href="#Contacto" class="@yield('contacto') bot">CONTACTO</a></li>
@@ -49,11 +49,11 @@
         @yield('contenido')
 
         
-        <div class="marg_content_top position-relative">
-            <img src="img/solapa_contacto.svg" class="solapa_footer" alt="">
-        </div>
-        <footer id="Contacto" class="container-fluid bg_azul pb-4 ">
         
+        <footer id="Contacto" class="container-fluid bg_azul pb-4 marg_content_top position-relative padd_small_top">
+            <div class="">
+                <img src="img/solapa_footer.svg" class="solapa_footer" alt="">
+            </div>
             <div class="row justify-content-center align-items-center">
                 <section class="col-11 col-lg-3 text-white text-center mx-0 mx-lg-3 py-5">
                     <img src="img/Logo_fonico_color2.svg" class="pb-5" height="160" alt="Logo Fonicokids">

@@ -8,10 +8,16 @@
             <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 ">
                 <h1 class="tit_top">Jugando </h1>
                 <h2 class="tit_top2 pb-3">nos comunicamos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium explicabo odio repellendus repudiandae odit fugiat minus nihil at consequuntur earum.</p>
+                <p>Entendemos la importancia del juego dentro del aprendizaje. Por esto, lo complementamos con el profesionalismo fonoaudiológico para trabajar con los desafíos de lenguaje, habla y/o comunicación que tu hijo presente.</p>
                 <article>
                     <a href="https://api.whatsapp.com/send?phone=56993301174" tarjet="blank"><button class="btn_gral mt-3">Conversemos</button></a>
                 </article>
+
+                <!-- <div class="btn_ppal mx-auto mx-md-0 mt-4">
+                    <a href="" class="btn_2">CONVERSEMOS</a>
+                </div> -->
+
+                
 
                 <article class="redes_sociales d-inline-flex pt-5">
                     <a href="/" target="_blank">
@@ -93,7 +99,7 @@
                 </article>
 
                 <h1 class="tit_info_main py-3 px-3">aprende con <br>Nosotros</h1>
-                <p class="px-3 pb-5">Adquiere herramientas de estimulación del lenguaje para aplicar con tus hij@s en todo momento</p>
+                <p class="px-3 pb-5">Adquiere herramientas de estimulación del lenguaje para aplicar con tus hijos en todo momento</p>
             </section>
 
             <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
@@ -113,7 +119,7 @@
                 </article>
 
                 <h1 class="tit_info_main py-3 px-3">Seguridad y <br>Protección</h1>
-                <p class="px-3 pb-5">Contamos con profesionales con vocación, formadas en crianza respetuosa y manejo de conductas disruptivas que aseguran la integridad de su hij@</p>
+                <p class="px-3 pb-5">Contamos con profesionales con vocación, formadas en crianza respetuosa y manejo de conductas disruptivas que aseguran la integridad de su hijo</p>
             </section>
 
             <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra">
@@ -132,8 +138,8 @@
         <div class="container-fluid bg_ninos d-flex justify-content-center align-items-center">
             <div class="row p-4 my-5 justify-content-center">
                 <article class="col-11 col-lg-8 box_ninos text-center">
-                    <h1 class="tit_general">Lo mejor para nuestros Hijos</h1>
-                    <p class="fw-bolder m-0">Como profesionales de la salud y educación queremos ayudarte a mejorar la calidad de vida de tu hijo o hija, minimizando las barreras que tiene en relación al lenguaje, habla, comunicación y/o cognición. Queremos ayudar a tu hijo a adquirir herramientas para sentirse más seguro de sí mismo, disminuir la frustración y a disfrutar plenamente este período tan valioso de la vida que es la infancia. Entendemos que para la familia es necesario tener una red de apoyo sólida en relación a la estimulación de su hijo, y queremos ser parte de ese círculo entregándote la confianza y cercanía para que te sientas a gusto con tu terapeuta.</p>
+                    <h1 class="tit_general">Lo mejor para nuestros Niños</h1>
+                    <p class="m-0">Como profesionales de la salud y educación queremos ayudarte a mejorar la calidad de vida de tu hijo o hija, minimizando las barreras que tiene en relación al lenguaje, habla, comunicación y/o cognición. Queremos ayudar a tu hijo a adquirir herramientas para sentirse más seguro de sí mismo, disminuir la frustración y a disfrutar plenamente este período tan valioso de la vida que es la infancia. Entendemos que para la familia es necesario tener una red de apoyo sólida en relación a la estimulación de su hijo, y queremos ser parte de ese círculo entregándote la confianza y cercanía para que te sientas a gusto con tu terapeuta.</p>
                 </article>
             </div>
         </div>

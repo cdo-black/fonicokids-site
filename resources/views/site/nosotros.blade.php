@@ -158,7 +158,7 @@
             <div class="row p-4 justify-content-center">
                 <article class="col-11 col-lg-8 box_ninos text-center">
                     <h1 class="tit_general">Trabajo en Equipo</h1>
-                    <p class="fw-bolder m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maiores saepe nemo impedit magnam.</p>
+                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maiores saepe nemo impedit magnam.</p>
                 </article>
             </div>
         </div>

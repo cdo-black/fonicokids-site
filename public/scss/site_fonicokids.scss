@@ -11,8 +11,10 @@ html {
   }
 
 body {
-    font-family: 'Comfortaa', cursive;;
+    /* font-family: 'Comfortaa', cursive; */
     background: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1rem;
 }
 
 .icono {
@@ -114,6 +116,40 @@ body {
     padding-bottom: 1rem;
 }
   
+.btn_ppal {
+    text-decoration: none !important;
+    background: white;
+    padding: 13px 25px;
+    transition: all .5s ease;
+    letter-spacing: 0.2rem;
+    font-weight: 600;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border: solid 1px white;
+    border-radius: 50px;
+    width: fit-content;
+    cursor: pointer;
+    
+}
+
+.btn_2{
+    text-decoration: none;
+    padding-top: 2px;
+    display: block;
+    color: $azul;
+}
+
+.btn_ppal, .btn_2:hover {
+    color: red!important;
+    border: solid 1px white;
+    background-color: $amarillo;
+    transform: translateX(20px);
+}
+
+.btn_gral:focus {
+    outline: 0px; 
+}
+
 .btn_gral{
     text-decoration: none !important;
     background: white;
@@ -147,7 +183,6 @@ body {
 /*====================================================
 						MENU
 ====================================================*/
-
 .navbar{
     padding: 1rem 8rem!important;
 	// background-color: #002255;
@@ -190,7 +225,6 @@ body {
 	display: block;
 	margin-left: 30px;
     text-shadow: 2px 2px 10px rgb(0 0 0 / 90%);
-    
 }
 
 .bot li a:hover{  
@@ -252,11 +286,14 @@ body {
 .tit_top {
     font-size: 3rem;
     text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 0;
 }
 
 .tit_top2 {
     font-size: 2rem;
     text-transform: uppercase;
+    letter-spacing: .1rem;
 }
 
 .redes_sociales a {
@@ -367,11 +404,9 @@ body {
 
 .solapa_footer {
     position: absolute;
-   /*  top: 0; */
+    top: -2px;
     left: 0;
-    /* transform: translate(-50% -50%); */
     width: 100%;
-    bottom: -1px;;
 }
 
 .rrss_footer a {
@@ -510,9 +545,9 @@ textarea {
 }
 
 .box_ninos {
-    background: rgba(255, 255, 255, .5);
+    background: rgba(255, 255, 255, .6);
     padding: 2rem;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
     border: solid 1px white;
     border-radius: 10px;
     max-width: 40%;
