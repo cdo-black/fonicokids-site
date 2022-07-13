@@ -57,7 +57,7 @@
             <div class="row justify-content-center align-items-center">
                 <section class="col-11 col-lg-3 text-white text-center mx-0 mx-lg-3 py-5">
                     <img src="img/Logo_fonico_color2.svg" class="pb-5" height="160" alt="Logo Fonicokids">
-                    <p>¿Tienes dudas?, ¿Consultas?<br>Ponte en contacto con nosotros en cualquier de nuestras plataformas de información y nos comunicaremos contigo en breve.</p>
+                    <p>¿Tienes dudas?, ¿Consultas?<br>Ponte en contacto con nosotros en cualquier de nuestras plataformas de información y nos comunicaremos contigo a la brevedad.</p>
 
                     <article class="info_footer mt-4">
                         <div class="pb-3"><a href="mailto:contacto@fonicokids.cl"><i class="fas fa-envelope"></i>&nbsp;&nbsp; contacto@fonicokids.cl</a></div>

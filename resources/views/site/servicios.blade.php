@@ -16,7 +16,7 @@
         <div class="row justify-content-center">
             <article class="col-12 col-lg-8 text-center">
                 <h1 class="tit_general">Tratamientos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate sapiente quidem quis harum ut voluptatibus sunt debitis esse distinctio, autem omnis repellendus accusamus totam quia? Architecto est sunt numquam!</p>
+                <p>Utilizamos diversos estímulos para abordar el habla, lenguaje y la comunicación de nuestros niños con el fin de entregar todas las ayudas posibles para obtener resultados positivos.</p>
             </article>
         </div>
     </section>
@@ -24,23 +24,23 @@
     <section class="container-fluid">
         <div class="row align-items-center">
             <article class="col-12 col-md-6 col-lg-3 bg_amarillo text-white text-center p-5 box_tratamientos">
-                <h1 class="tit_general">Lenguaje</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium ipsam quo odit exercitationem eaque.</p>
+                <h1 class="tit_general">Estimulo visual</h1>
+                <p>Utilizamos mascarillas inclusivas que benefician la visibilidad de los órganos fonoarticulatorios como la boca, los dientes y la lengua.</p>
             </article>
 
             <article class="col-12 col-md-6 col-lg-3 bg_fucsia text-white text-center p-5 box_tratamientos">
-                <h1 class="tit_general">Habla</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium ipsam quo odit exercitationem eaque.</p>
+                <h1 class="tit_general">Estimulo táctil</h1>
+                <p>Hacemos uso, si es necesario, de estrategias de estimulación táctil de los órganos fonoarticulatorios para lograr el fonema objetivo.</p>
             </article>
 
             <article class="col-12 col-md-6 col-lg-3 bg_lila text-white text-center p-5 box_tratamientos">
-                <h1 class="tit_general">Voz</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium ipsam quo odit exercitationem eaque.</p>
+                <h1 class="tit_general">Estimulo auditivo</h1>
+                <p>Utilizamos entonación lúdica que llama la atención de los niños. Enfatizamos con el tono de voz las palabras objetivo que se trabajan.</p>
             </article>
 
             <article class="col-12 col-md-6 col-lg-3 bg_celeste text-white text-center p-5 box_tratamientos">
-                <h1 class="tit_general">...</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, laudantium ipsam quo odit exercitationem eaque.</p>
+                <h1 class="tit_general">Estimulo cognitivo</h1>
+                <p>Entregamos claves informativas que potencian las habilidades comprensivas dentro del contexto comunicativo.</p>
             </article>
         </div>
     </section>
@@ -52,12 +52,16 @@
             </article>
 
             <article class="col-12 col-md-5 col-lg-6 py-5 text-center">
-                <h1 class="tit_general pb-3">Señales de alerta</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quisquam modi veniam, porro recusandae incidunt voluptatum alias quod obcaecati ipsa perferendis <br><br>
+                <h1 class="tit_general pb-3">Diagnósticos a abordar</h1>
+                <p>Aplicamos estrategias de intervención en diversos diagnósticos relacionados con el lenguaje, <br> entre ellos: <br><br>
 
-                &rarr; Lorem ipsum dolor sit, amet <br>
-                &rarr; Lorem ipsum dolor sit, amet <br>
-                &rarr; Lorem ipsum dolor sit, amet <br>
+                    &rarr; Trastorno del desarrollo del lenguaje (ex TEL expresivo o mixto). <br> 
+                    &rarr; Hablantes tardíos (antes de los 3 años). <br>
+                    &rarr; Trastorno de los sonidos del habla TSH. (ex dislalias) <br>
+                    &rarr; Apraxia del habla Infantil. <br>
+                    &rarr; Trastorno del lenguaje asociado a Trastorno del Espectro Autista. <br>
+                    &rarr; Trastorno del lenguaje asociado a Déficit Intelectual. <br>
+                    &rarr; Otros trastornos del lenguaje asociados a diagnósticos de base.
                 </p>
             </article>
         </div>
@@ -95,20 +99,20 @@
             <section class="row align-items-center justify-content-evenly">
                 <article class="col-11 col-lg-3 text-center color_amarillo box_terapias border_box_amarillo position-relative">
                     <img src="img/num_1.svg" class="box_terapias_numero" height="100" alt="">
-                    <h1 class="tit_general">Conversemos</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum. Odio qui aliquam veritatis eaque!</p>
+                    <h1 class="tit_general">Evaluación</h1>
+                    <p>Se hará una evaluación profunda del lenguaje, habla, comunicación y cognición, en donde se determinarán las fortalezas y barreras del niño. </p>
                 </article>
             
                 <article class="col-11 col-lg-3 text-center color_celeste box_terapias border_box_celeste position-relative">
                     <img src="img/num_2.svg" class="box_terapias_numero" height="100" alt="">
-                    <h1 class="tit_general">Evaluación</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum. Odio qui aliquam veritatis eaque!</p>
+                    <h1 class="tit_general">Plan</h1>
+                    <p>Se realiza un plan de tratamiento específico para su hijo o hija según lo observado en la evaluación. Se estima la cantidad de sesiones que se necesitarán. </p>
                 </article>
             
                 <article class="col-11 col-lg-3 text-center color_am_claro box_terapias border_box_am_claro position-relative">
                     <img src="img/num_3.svg" class="box_terapias_numero" height="100" alt="">
-                    <h1 class="tit_general">Comienzo</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, voluptatum. Odio qui aliquam veritatis eaque!</p>
+                    <h1 class="tit_general">Tratamiento</h1>
+                    <p>Se inicia el tratamiento conforme a lo acordado previamente.</p>
                 </article>
 
                 <article class="text-center mb-5">

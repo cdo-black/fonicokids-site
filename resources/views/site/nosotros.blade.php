@@ -30,7 +30,7 @@
 
             <article class="col-12 col-lg-4 bg_fucsia text-center p-5 text-white">
                 <h1 class="tit_general">Visión</h1>
-                <p>Nuestro objetivo es entregarle a tus hij@s herramientas para expresar sus necesidades y deseos y superar desafíos lingüístico-comunicativos que se presenten durante su infancia. Nuestro trabajo se sustenta en la enseñanza de habilidades comunicativas a través del juego, complementándolo con amor y respeto para propiciar un contexto amigable, cercano y cómodo para los niños y sus cuidadores.</p>
+                <p>Nuestro objetivo es entregarle a tus hijos herramientas para expresar sus necesidades y deseos y superar desafíos lingüístico-comunicativos que se presenten durante su infancia. Nuestro trabajo se sustenta en la enseñanza de habilidades comunicativas a través del juego, complementándolo con amor y respeto para propiciar un contexto amigable, cercano y cómodo para los niños y sus cuidadores.</p>
 
                 <h1 class="tit_general pt-5">misión</h1>
                 <p>Nuestra misión es mejorar la producción de los sonidos del habla y optimizar la forma en que los niños y niñas se comunican con su entorno, con el fin de mejorar la calidad de vida de nuestros niños.</p>
@@ -38,7 +38,7 @@
 
             <article class="col-12 col-lg-4 bg_lila text-center p-5 text-white align-content-center d-grid borde_lila">
                 <h1 class="tit_general">Nuestro Trabajo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quo corrupti suscipit reiciendis qui repudiandae inventore iste quisquam incidunt odit, harum consequuntur, quidem, ipsum possimus aliquid similique explicabo beatae ad?</p>
+                <p>Realizamos atención fonoaudiológica personalizada a domicilio en Santiago. Para esto creamos un plan de tratamiento especial y diferente para cada niño según sus fortalezas y desafíos, analizando, y posteriormente seleccionando el estilo de aprendizaje que esté acorde a las necesidades del niño. Todo esto realizado por fonoaudiólogas empáticas y afectuosas, formadas en trastornos del lenguaje, habla y comunicación.</p>
             </article>
         </div>
     </section>
@@ -158,7 +158,7 @@
             <div class="row p-4 justify-content-center">
                 <article class="col-11 col-lg-8 box_ninos text-center">
                     <h1 class="tit_general">Trabajo en Equipo</h1>
-                    <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maiores saepe nemo impedit magnam.</p>
+                    <p class="m-0">La familia actúa como un agente fundamental en todo el proceso de aprendizaje. Por ello resulta primordial crear una relación estrecha familia-terapeuta, haciendo un trabajo en conjunto con constante retroalimentación. A través de estas herramientas los padres aprenderán a aplicar un juego guiado por el adulto en donde además de estimular el lenguaje se potenciarán habilidades cognitivas, sociales y emocionales que beneficiarán al niño y a su entorno cercano.</p>
                 </article>
             </div>
         </div>
