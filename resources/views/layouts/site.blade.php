@@ -109,7 +109,16 @@
 
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>
-            AOS.init();
+            AOS.init({
+
+  
+
+
+  duration: 1000, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-out', // default easing for AOS animations
+
+
+});
         </script>
 
 

@@ -5,7 +5,7 @@
 @section('contenido')
 <section class="container-fluid bg_inicio d-flex align-items-center justify-content-center padd_content_top padd_small_bottom position-relative">
     <div class="row align-items-center justify-content-center">
-        <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 " data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100">
+        <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 " data-aos="fade-right" data-aos-delay="100">
             <h1 class="tit_top">Jugando </h1>
             <h2 class="tit_top2 pb-3">nos comunicamos</h2>
             <p>Entendemos la importancia del juego dentro del aprendizaje. Por esto, lo complementamos con el profesionalismo fonoaudiológico para trabajar con los desafíos de lenguaje, habla y/o comunicación que tu hijo presente.</p>
@@ -19,7 +19,7 @@
 
             
 
-            <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
+            <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-delay="800">
                 <a href="/" target="_blank">
                     <div class=""><i class="fab fa-facebook-f"></i></div>
                 </a>
@@ -33,7 +33,7 @@
             </article>
         </article>
 
-        <article class="col-12 col-md-6 col-lg-5 order-md-1 pb-5 position-relative" data-aos="fade-up" data-aos-duration="1500">
+        <article class="col-12 col-md-6 col-lg-5 order-md-1 pb-5 position-relative" data-aos="fade-up">
             <img src="img/top_nina1.png" class="img-fluid img_nina1" alt="Niña Fonicokids">
             <img src="img/top_nina2.png" class="img-fluid img_nina2" alt="Niña Fonicokids">
         </article>
@@ -46,11 +46,11 @@
 
 <section class="container padd_small_bottom">
     <div class="row justify-content-evenly align-items-center pt-5">
-        <article class="col-12 col-md-5 col-lg-3 text-center text-md-start" data-aos="fade-right" data-aos-duration="1500">
+        <article class="col-12 col-md-5 col-lg-3 text-center text-md-start" data-aos="fade-right">
             <img src="img/Logo_fonico_color.svg" height="200" alt="">
         </article>
 
-        <article class="col-12 col-md-6 col-lg-6 pt-5 text-center" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+        <article class="col-12 col-md-6 col-lg-6 pt-5 text-center" data-aos="fade-up" data-aos-delay="500">
             <h1 class="tit_general pb-3">Fonicokids</h1>
             <p>Las profesionales de Fonicokids fundamentamos nuestra terapia en el juego ya que sabemos que es necesario estar contento para aprender mejor. Esto se explica debido a que mientras los niños juegan y se entretienen liberan un neurotransmisor llamado serotonina, comúnmente llamada “hormona de la felicidad”, participando activamente en los procesos de adquisición de nuevo aprendizaje. <br><br>
             Es por esto que en nuestras sesiones de trabajo, jugamos con tu hijo guiando este juego hacia un objetivo terapéutico, combinando los contenidos de tratamiento con actividades de juego de roles, imaginación, motricidad gruesa/fina, canciones, y un largo etcétera que de seguro te interesará conocer.
@@ -61,7 +61,7 @@
 
 <section class="container-fluid bg_am_claro py-5">
     <div class="row align-items-center justify-content-evenly">
-        <article class="col-12 col-md-5 col-lg-4 py-5 text-center" data-aos="fade-right" data-aos-duration="1500">
+        <article class="col-12 col-md-5 col-lg-4 py-5 text-center" data-aos="fade-right">
             <img src="img/img_fono.png" class="img-fluid" alt="">
         </article>
 
@@ -92,7 +92,7 @@
 
 <main class="container-fluid padd_content_top padd_content_bottom mt-4">
     <div class="row justify-content-center">
-        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-duration="1500">
+        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up">
             <article class="box_icon">
                 <img src="img/main_info_top1.svg" class="" alt="">
                 <img src="img/icon_1.svg" height="90" class="icon_info_main" alt="">
@@ -102,7 +102,7 @@
             <p class="px-3 pb-5">Adquiere herramientas de estimulación del lenguaje para aplicar con tus hijos en todo momento</p>
         </section>
 
-        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-delay="100">
             <article class="box_icon">
                 <img src="img/main_info_top2.svg" class="" alt="">
                 <img src="img/icon_2.svg" height="90" class="icon_info_main" alt="">
@@ -112,7 +112,7 @@
             <p class="px-3 pb-5">Con nuestras fonoaudiólogas tu pequeño se olvidará de que está aprendiendo, disfrutará y querrá volver a jugar y divertirse</p>
         </section>
 
-        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-delay="400">
             <article class="box_icon">
                 <img src="img/main_info_top3.svg" class="" alt="">
                 <img src="img/icon_3.svg" height="90" class="icon_info_main" alt="">
@@ -122,7 +122,7 @@
             <p class="px-3 pb-5">Contamos con profesionales con vocación, formadas en crianza respetuosa y manejo de conductas disruptivas que aseguran la integridad de su hijo</p>
         </section>
 
-        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="800">
+        <section class="col-10 col-sm-5 col-md-5 col-lg-2 bg_azul text-white text-center px-0 border_main sombra" data-aos="fade-up" data-aos-delay="800">
             <article class="box_icon">
                 <img src="img/main_info_top4.svg" class="" alt="">
                 <img src="img/icon_4.svg" height="90" class="icon_info_main" alt="">
@@ -137,7 +137,7 @@
 <section class="marg_content_bottom position-relative">
     <div class="container-fluid bg_ninos d-flex justify-content-center align-items-center">
         <div class="row p-4 my-5 justify-content-center">
-            <article class="col-11 col-lg-8 box_ninos text-center" data-aos="zoom-in-up" data-aos-duration="1500">
+            <article class="col-11 col-lg-8 box_ninos text-center" data-aos="zoom-in">
                 <h1 class="tit_general">Lo mejor para nuestros Niños</h1>
                 <p class="m-0">Como profesionales de la salud y educación queremos ayudarte a mejorar la calidad de vida de tu hijo o hija, minimizando las barreras que tiene en relación al lenguaje, habla, comunicación y/o cognición. Queremos ayudar a tu hijo a adquirir herramientas para sentirse más seguro de sí mismo, disminuir la frustración y a disfrutar plenamente este período tan valioso de la vida que es la infancia. Entendemos que para la familia es necesario tener una red de apoyo sólida en relación a la estimulación de su hijo, y queremos ser parte de ese círculo entregándote la confianza y cercanía para que te sientas a gusto con tu terapeuta.</p>
             </article>
