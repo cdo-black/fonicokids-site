@@ -17,9 +17,12 @@
       
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/site_fonicokids.css" rel="stylesheet">
+    <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<script src="{{ asset('js/fontawesome.js') }}"></script>
 	@livewireStyles
@@ -99,6 +102,19 @@
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('js/menu.js') }}"></script>
         <script src="{{ asset('js/index.bundle.min.js') }}"></script>
+        <script src="{{ asset('js/wow.min.js') }}"></script>
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+
+
+
         <!-- <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.0/dist/index.bundle.min.js"></script> -->
         @livewireScripts
 		<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
