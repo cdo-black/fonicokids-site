@@ -93,14 +93,14 @@
             <div class="row align-items-center justify-content-center pb-5">
                 <article class="col-12 col-lg-8 color_azul text-center text-white">
                     <h1 class="tit_general">Comenzar tu terapia es fácil</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi iusto reiciendis voluptas iure, beatae ipsam eaque deserunt similique at tempore.</p>
+                    <p>Si tienes dudas sobre el lenguaje de tu pequeño estos son los pasos a seguir:</p>
                 </article>
             </div>
-            <section class="row align-items-center justify-content-evenly">
+            <section class="row justify-content-evenly">
                 <article class="col-11 col-lg-3 text-center color_amarillo box_terapias border_box_amarillo position-relative">
                     <img src="img/num_1.svg" class="box_terapias_numero" height="100" alt="">
                     <h1 class="tit_general">Evaluación</h1>
-                    <p>Se hará una evaluación profunda del lenguaje, habla, comunicación y cognición, en donde se determinarán las fortalezas y barreras del niño. </p>
+                    <p>Se hace una evaluación profunda del lenguaje, habla, comunicación y cognición, en donde se determinarán las fortalezas y barreras del niño. </p>
                 </article>
             
                 <article class="col-11 col-lg-3 text-center color_celeste box_terapias border_box_celeste position-relative">
