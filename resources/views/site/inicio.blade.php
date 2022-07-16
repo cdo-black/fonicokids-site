@@ -7,7 +7,7 @@
     <div class="row align-items-center justify-content-center">
         <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 ">
             <h1 class="tit_top" data-aos="fade-right" data-aos-delay="400">Jugando <br> 
-            <span class="tit_top2 pb-3 d-block" data-aos="fade-right" data-aos-delay="600">nos comunicamos</span></h1>
+            <span class="tit_top2 pb-3 d-block">nos comunicamos</span></h1>
             
             <p data-aos="fade-right" data-aos-delay="900">Entendemos la importancia del juego dentro del aprendizaje. Por esto, lo complementamos con el profesionalismo fonoaudiológico para trabajar con los desafíos de lenguaje, habla y/o comunicación que tu hijo presente.</p>
             <article data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">
