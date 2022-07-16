@@ -31,14 +31,14 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="index.php" data-aos="fade-down" data-aos-delay="400">
                     <img src="img/Logo_fonico_blanco.svg" height="60" alt="Logo FonicoKids" loading="lazy">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" data-aos="fade-left" data-aos-delay="400">
                     <div class="icono"></div>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01" data-aos="fade-left" data-aos-delay="400">
                     <ul class="navbar-nav text-end nav-pills bot py-3 py-lg-0 pe-3 pe-lg-0">
                         <li><a href="{{ route('inicio') }}" class="@yield('inicio') bot my-3 my-lg-0">INICIO</a></li>
                         <li><a href="{{ route('nosotros') }}" class="@yield('nosotros') bot">NOSOTROS</a></li>
