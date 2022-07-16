@@ -5,11 +5,12 @@
 @section('contenido')
 <section class="container-fluid bg_inicio d-flex align-items-center justify-content-center padd_content_top padd_small_bottom position-relative">
     <div class="row align-items-center justify-content-center">
-        <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 " data-aos="fade-right" data-aos-delay="100">
-            <h1 class="tit_top">Jugando </h1>
-            <h2 class="tit_top2 pb-3">nos comunicamos</h2>
-            <p>Entendemos la importancia del juego dentro del aprendizaje. Por esto, lo complementamos con el profesionalismo fonoaudiológico para trabajar con los desafíos de lenguaje, habla y/o comunicación que tu hijo presente.</p>
-            <article data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+        <article class="col-12 col-md-5 col-lg-4 text-white text-center text-md-start order-1 pb-5 ">
+            <h1 class="tit_top" data-aos="fade-right" data-aos-delay="400">Jugando <br> 
+            <span class="tit_top2 pb-3 d-block" data-aos="fade-right" data-aos-delay="600">nos comunicamos</span></h1>
+            
+            <p data-aos="fade-right" data-aos-delay="900">Entendemos la importancia del juego dentro del aprendizaje. Por esto, lo complementamos con el profesionalismo fonoaudiológico para trabajar con los desafíos de lenguaje, habla y/o comunicación que tu hijo presente.</p>
+            <article data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1200">
                 <a href="https://api.whatsapp.com/send?phone=56993301174" tarjet="blank"><button class="btn_gral mt-3">Conversemos</button></a>
             </article>
 
@@ -19,7 +20,7 @@
 
             
 
-            <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-delay="800">
+            <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-delay="1400">
                 <a href="/" target="_blank">
                     <div class=""><i class="fab fa-facebook-f"></i></div>
                 </a>
@@ -33,7 +34,7 @@
             </article>
         </article>
 
-        <article class="col-12 col-md-6 col-lg-5 order-md-1 pb-5 position-relative" data-aos="fade-up">
+        <article class="col-12 col-md-6 col-lg-5 order-md-1 pb-5 position-relative" data-aos="fade-up" data-aos-delay="1100">
             <img src="img/top_nina1.png" class="img-fluid img_nina1" alt="Niña Fonicokids">
             <img src="img/top_nina2.png" class="img-fluid img_nina2" alt="Niña Fonicokids">
         </article>

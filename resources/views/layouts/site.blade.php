@@ -116,6 +116,8 @@
 
   duration: 1200, // values from 0 to 3000, with step 50ms
   easing: 'ease-linear', // default easing for AOS animations
+  once: true,
+  mirror: false,
 
 
 });
