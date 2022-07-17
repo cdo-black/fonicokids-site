@@ -12,15 +12,6 @@
         </div>
     </section>
 
-    <!-- <div class="container padd_small_top mt-5">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-8 text-center">
-                <h1 class="tit_general">Tratamientos</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate sapiente quidem quis harum ut voluptatibus sunt debitis esse distinctio, autem omnis repellendus accusamus totam quia? Architecto est sunt numquam!</p>
-            </div>
-        </div>
-    </div> -->
-
     <section class="container-fluid padd_small_top padd_content_bottom">
         <div class="row">
             <article class="col-12 col-lg-4 bg_am_claro text-center p-5 align-content-center d-grid borde_am" data-aos="fade-up" data-aos-delay="800">
@@ -166,14 +157,5 @@
             <img src="img/solapa_inferior.svg" alt="">
         </div>
     </section>
-    <!-- <section class="container-fluid bg_trabajo_equipo position-relative p-0 padd_small_bottom padd_small_top">
-        <img src="img/solapa_inferior.svg" class="solapa_inferior" alt="">
-        <div class="row">
-            <article class="col-11 col-lg-7 text-center box_trabajo_equipo">
-                <h1 class="tit_general">Trabajo en Equipo</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maioret, consectetur adipisicing elit. Numquam doloribus, maiores saepe nemo impedit magnam.</p>
-            </article>
-        </div>
-    </section> -->
 @endsection
 

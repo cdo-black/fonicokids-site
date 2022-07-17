@@ -14,12 +14,6 @@
                 <a href="https://api.whatsapp.com/send?phone=56993301174" tarjet="blank"><button class="btn_gral mt-3">Conversemos</button></a>
             </article>
 
-            <!-- <div class="btn_ppal mx-auto mx-md-0 mt-4">
-                <a href="" class="btn_2">CONVERSEMOS</a>
-            </div> -->
-
-            
-
             <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-delay="1400">
                 <a href="/" target="_blank">
                     <div class=""><i class="fab fa-facebook-f"></i></div>
