@@ -34,7 +34,7 @@
                     <img src="img/Logo_fonico_blanco.svg" height="60" alt="Logo FonicoKids" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
-                    <div class="icono"></div>
+                    <div class="icono" data-aos="fade-left" data-aos-delay="400"></div>
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01" >
