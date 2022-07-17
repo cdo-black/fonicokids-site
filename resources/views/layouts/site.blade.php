@@ -30,7 +30,7 @@
     <body>
         <header>
             <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-                <a class="navbar-brand" href="index.php" data-aos="fade-down" data-aos-delay="400">
+                <a class="navbar-brand" href="{{ route('inicio') }}" data-aos="fade-down" data-aos-delay="400">
                     <img src="img/Logo_fonico_blanco.svg" height="60" alt="Logo FonicoKids" loading="lazy">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" >
