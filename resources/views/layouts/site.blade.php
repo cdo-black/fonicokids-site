@@ -15,13 +15,12 @@
     <meta content="" property="og:description"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
       
-	<link href="css/bootstrap.css" rel="stylesheet">
-	<link href="css/site_fonicokids.css" rel="stylesheet">
-    <link href="{{ asset('css/animate.min.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+	<link href="{{ asset('css/site_fonicokids.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/aos.css') }}" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<script src="{{ asset('js/fontawesome.js') }}"></script>
 	@livewireStyles
@@ -38,7 +37,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01" >
-                    <ul class="navbar-nav text-end nav-pills bot py-3 py-lg-0 pe-3 pe-lg-0">
+                    <ul class="navbar-nav text-center nav-pills bot py-3 py-lg-0 pe-3 pe-lg-0">
                         <li><a href="{{ route('inicio') }}" class="@yield('inicio') bot my-3 my-lg-0">INICIO</a></li>
                         <li><a href="{{ route('nosotros') }}" class="@yield('nosotros') bot my-3 my-lg-0">NOSOTROS</a></li>
                         <li><a href="{{ route('servicios') }}" class="@yield('servicios') bot my-3 my-lg-0">SERVICIOS</a></li>
@@ -101,12 +100,8 @@
         <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
         <script src="{{ asset('js/menu.js') }}"></script>
         <script src="{{ asset('js/index.bundle.min.js') }}"></script>
-        <script src="{{ asset('js/wow.min.js') }}"></script>
-        <script type="text/javascript">
-            new WOW().init();
-        </script>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="{{ asset('js/aos.js') }}"></script>
         <script>
             AOS.init({
                 duration: 1200, // values from 0 to 3000, with step 50ms

@@ -34,7 +34,7 @@
         </article>
 
         <div class="">
-            <img src="img/Solapa_portada.svg" class="solapa_top" alt="">
+            <img src="img/Solapa_portada.svg" class="solapa_top" alt="Solapa">
         </div>
     </div>
 </section>
@@ -47,8 +47,8 @@
 
         <article class="col-12 col-md-6 col-lg-6 pt-5 text-center" data-aos="fade-up" data-aos-delay="500">
             <h1 class="tit_general pb-3">Fonicokids</h1>
-            <p>Las profesionales de Fonicokids fundamentamos nuestra terapia en el juego ya que sabemos que es necesario estar contento para aprender mejor. Esto se explica debido a que mientras los niños juegan y se entretienen liberan un neurotransmisor llamado serotonina, comúnmente llamada “hormona de la felicidad”, participando activamente en los procesos de adquisición de nuevo aprendizaje. <br><br>
-            Es por esto que en nuestras sesiones de trabajo, jugamos con tu hijo guiando este juego hacia un objetivo terapéutico, combinando los contenidos de tratamiento con actividades de juego de roles, imaginación, motricidad gruesa/fina, canciones, y un largo etcétera que de seguro te interesará conocer.
+            <p>Las profesionales de Fonicokids fundamentamos nuestra terapia en el juego ya que sabemos que es necesario estar contento para aprender mejor. Esto se explica debido a que mientras los niños juegan y se entretienen liberan un neurotransmisor llamado serotonina, comúnmente llamada “Hormona de la Felicidad”, participando activamente en los procesos de adquisición de nuevo aprendizaje. <br><br>
+            Es por esto que en nuestras sesiones de trabajo, jugamos con tu hijo guiando este juego hacia un objetivo terapéutico, combinando los contenidos de tratamiento con actividades de juego de roles, imaginación, motricidad gruesa/fina, canciones y un largo etcétera que de seguro te interesará conocer.
             </p>
         </article>
     </div>
@@ -139,7 +139,7 @@
         </div>
     </div>
     <div class="container-fluid p-0 solapa_inferior">
-        <img src="img/solapa_inferior.svg" alt="">
+        <img src="img/solapa_inferior.svg" alt="Solapa">
     </div>
 </section>
 @endsection

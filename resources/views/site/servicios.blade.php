@@ -7,14 +7,14 @@
         <img src="img/Solapa_portada.svg" class="img_solapa_portada" alt="">
         <div class="row">
             <article class="col-12 col-lg-5 text-white text-center box_frase_top">
-                <p class="frase_top">...La comunicación es una ventana de oportunidades...</p>
+                <p class="frase_top" data-aos="fade-up" data-aos-delay="400">...La comunicación es una ventana de oportunidades...</p>
             </article>
         </div>
     </section>
 
     <section class="container padd_small_top padd_small_bottom mt-5">
         <div class="row justify-content-center">
-            <article class="col-12 col-lg-8 text-center">
+            <article class="col-12 col-lg-8 text-center" data-aos="fade-right" data-aos-delay="600">
                 <h1 class="tit_general">Tratamientos</h1>
                 <p>Utilizamos diversos estímulos para abordar el habla, lenguaje y la comunicación de nuestros niños con el fin de entregar todas las ayudas posibles para obtener resultados positivos.</p>
             </article>
@@ -23,22 +23,22 @@
 
     <section class="container-fluid">
         <div class="row align-items-center">
-            <article class="col-12 col-md-6 col-lg-3 bg_amarillo text-white text-center p-5 box_tratamientos">
+            <article class="col-12 col-md-6 col-lg-3 bg_amarillo text-white text-center p-5 box_tratamientos" data-aos="fade-up" data-aos-delay="400">
                 <h1 class="tit_general">Estimulo visual</h1>
                 <p>Utilizamos mascarillas inclusivas que benefician la visibilidad de los órganos fonoarticulatorios como la boca, los dientes y la lengua.</p>
             </article>
 
-            <article class="col-12 col-md-6 col-lg-3 bg_fucsia text-white text-center p-5 box_tratamientos">
+            <article class="col-12 col-md-6 col-lg-3 bg_fucsia text-white text-center p-5 box_tratamientos" data-aos="fade-up" data-aos-delay="600">
                 <h1 class="tit_general">Estimulo táctil</h1>
                 <p>Hacemos uso, si es necesario, de estrategias de estimulación táctil de los órganos fonoarticulatorios para lograr el fonema objetivo.</p>
             </article>
 
-            <article class="col-12 col-md-6 col-lg-3 bg_lila text-white text-center p-5 box_tratamientos">
+            <article class="col-12 col-md-6 col-lg-3 bg_lila text-white text-center p-5 box_tratamientos" data-aos="fade-up" data-aos-delay="800">
                 <h1 class="tit_general">Estimulo auditivo</h1>
                 <p>Utilizamos entonación lúdica que llama la atención de los niños. Enfatizamos con el tono de voz las palabras objetivo que se trabajan.</p>
             </article>
 
-            <article class="col-12 col-md-6 col-lg-3 bg_celeste text-white text-center p-5 box_tratamientos">
+            <article class="col-12 col-md-6 col-lg-3 bg_celeste text-white text-center p-5 box_tratamientos" data-aos="fade-up" data-aos-delay="1000">
                 <h1 class="tit_general">Estimulo cognitivo</h1>
                 <p>Entregamos claves informativas que potencian las habilidades comprensivas dentro del contexto comunicativo.</p>
             </article>
@@ -47,8 +47,8 @@
 
     <section class="container-fluid padd_small_top padd_small_bottom">
         <div class="row align-items-center justify-content-evenly">
-            <article class="col-12 col-md-5 col-lg-4 py-5 text-center">
-                <img src="img/img_perfil.png" class="img-fluid" alt="">
+            <article class="col-12 col-md-5 col-lg-4 py-5 text-center" data-aos="fade-right" data-aos-delay="400">
+                <img src="img/img_perfil.png" class="img-fluid" alt="Niño">
             </article>
 
             <article class="col-12 col-md-5 col-lg-6 py-5 text-center">
@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <div class="container p-5 bg_convenios marg_content_bottom">
+    <div class="container p-5 bg_convenios marg_content_bottom" data-aos="fade-up" data-aos-delay="400">
         <div class="row justify-content-center">
             <div class="col-12 col-lg-5 text-center border_convenios">
                 <h1 class="tit_general pb-5">Convenios</h1>
@@ -79,7 +79,7 @@
             </div>
 
             <div class="col-12 col-lg-7 text-center pt-5 pt-lg-0">
-                <h1 class="tit_general">Boleta reembolsable en Isapres</h1>
+                <h1 class="tit_general">Boleta reembolsable en distintas Isapres</h1>
                 <img src="img/isapre1.png" class="img_isapres" alt="">
                 <img src="img/isapre2.png" class="img_isapres" alt="">
                 <img src="img/isapre3.png" class="img_isapres" alt="">
@@ -97,19 +97,19 @@
                 </article>
             </div>
             <section class="row justify-content-evenly">
-                <article class="col-11 col-lg-3 text-center color_amarillo box_terapias border_box_amarillo position-relative">
+                <article class="col-11 col-lg-3 text-center color_amarillo box_terapias border_box_amarillo position-relative" data-aos="fade-down" data-aos-delay="400">
                     <img src="img/num_1.svg" class="box_terapias_numero" height="100" alt="">
                     <h1 class="tit_general">Evaluación</h1>
                     <p>Se hace una evaluación profunda del lenguaje, habla, comunicación y cognición, en donde se determinarán las fortalezas y barreras del niño. </p>
                 </article>
             
-                <article class="col-11 col-lg-3 text-center color_celeste box_terapias border_box_celeste position-relative">
+                <article class="col-11 col-lg-3 text-center color_celeste box_terapias border_box_celeste position-relative" data-aos="fade-down" data-aos-delay="600">
                     <img src="img/num_2.svg" class="box_terapias_numero" height="100" alt="">
                     <h1 class="tit_general">Plan</h1>
                     <p>Se realiza un plan de tratamiento específico para su hijo o hija según lo observado en la evaluación. Se estima la cantidad de sesiones que se necesitarán. </p>
                 </article>
             
-                <article class="col-11 col-lg-3 text-center color_am_claro box_terapias border_box_am_claro position-relative">
+                <article class="col-11 col-lg-3 text-center color_am_claro box_terapias border_box_am_claro position-relative" data-aos="fade-down" data-aos-delay="800">
                     <img src="img/num_3.svg" class="box_terapias_numero" height="100" alt="">
                     <h1 class="tit_general">Tratamiento</h1>
                     <p>Se inicia el tratamiento conforme a lo acordado previamente.</p>
