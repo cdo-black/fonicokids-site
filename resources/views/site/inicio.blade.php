@@ -15,10 +15,10 @@
             </article>
 
             <article class="redes_sociales d-inline-flex pt-5" data-aos="fade-right" data-aos-delay="1400">
-                <a href="/" target="_blank">
+                <a href="https://www.facebook.com/profile.php?id=100084130596396" target="_blank">
                     <div class=""><i class="fab fa-facebook-f"></i></div>
                 </a>
-                <a href="/" target="_blank">
+                <a href="https://www.instagram.com/fonicokids" target="_blank">
                     <div class=""><i class="fab fa-instagram"></i></div>
                 </a>
                 <a href="https://api.whatsapp.com/send?phone=56993301174" target="_blank">
@@ -47,8 +47,11 @@
 
         <article class="col-12 col-md-6 col-lg-6 pt-5 text-center" data-aos="fade-up" data-aos-delay="500">
             <h1 class="tit_general pb-3">Fonicokids</h1>
-            <p>Las profesionales de Fonicokids fundamentamos nuestra terapia en el juego ya que sabemos que es necesario estar contento para aprender mejor. Esto se explica debido a que mientras los niños juegan y se entretienen liberan un neurotransmisor llamado serotonina, comúnmente llamada “Hormona de la Felicidad”, participando activamente en los procesos de adquisición de nuevo aprendizaje. <br><br>
-            Es por esto que en nuestras sesiones de trabajo, jugamos con tu hijo guiando este juego hacia un objetivo terapéutico, combinando los contenidos de tratamiento con actividades de juego de roles, imaginación, motricidad gruesa/fina, canciones y un largo etcétera que de seguro te interesará conocer.
+            <p>Las profesionales de <span class="bold">Fonicokids</span> fundamentamos nuestra terapia en el juego ya que sabemos que constituye una de las formas más importantes en las que los niños pequeños obtienen conocimientos y competencias esenciales. Mediante el juego los niños pueden seguir instrucciones, desarrollar habilidades sociales, la imaginación, razonar de una manera lógica y por supuesto comunicarse con su entorno de una manera amena y confortable, entre muchas otras habilidades que se pueden trabajar.
+            <br><br>
+            Por otro lado, es sabido que cuando disfrutamos algún momento o vivencia nuestro cerebro libera un neurotransmisor llamado serotonina, comúnmente llamada “Hormona de la Felicidad”, participando activamente en los procesos de adquisición de nuevo aprendizaje.
+            <br><br>
+            Es por esto que en nuestras sesiones de trabajo, jugamos con tu hijo guiando este juego hacia un objetivo terapéutico, combinando los contenidos de tratamiento con actividades de juego de roles, imaginación, motricidad gruesa/fina, canciones y un largo etcétera que de seguro te interesará conocer. 
             </p>
         </article>
     </div>

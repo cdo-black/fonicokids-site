@@ -7,12 +7,12 @@
     <title>FonicoKids | @yield('titulo')</title>
       
     <meta name="author" content="ASD Informáticos - Adrián Ríos Sánchez" />
-    <meta name="Description" content=""/>
-    <meta name="keywords" content="" />
+    <meta name="Description" content="Fonicokids es un espacio para Padres de niños con problemas de lenguaje que necesitan sesiones de fonoaudiólogía. Se muestra el tratamiento, los tipos de estímulos que utilizamos y la importancia del juego para el aprendizaje en niños y niñas."/>
+    <meta name="keywords" content="Niños, niñas, hijos, hijas, padres, tel, mixto, tdl, trastorno, evaluación, lenguaje, comunicación, diagnósticos, tea, preescolar, espectro, dislalia, retraso, autismo, habla, DI, déficit, intelectual, fluidez, apraxia, infantil, estímulos, visual, auditivo, táctil, imaginación, cuentos, juego, jugar, papás, fonoaudióloga, terapeuta, síndrome, down, palabras, comprensión, preguntas, habilidades, comunicativas, plan, tratamiento, empatía, amorosa, respeto, familia, trabajo, cognitivas, sociales, habilidades, desarrollo, terapia, fonemas." />
     <meta name="robots" content="index, follow" /> 
     <meta content="FonicoKids - Jugando nos Comunicamos" property="og:title"/>
     <meta content="img/_fonicokids_og.jpg" property="og:image"/>
-    <meta content="" property="og:description"/>
+    <meta content="Fonicokids es un espacio para Padres de niños con problemas de lenguaje que necesitan sesiones de fonoaudiólogía. Se muestra el tratamiento, los tipos de estímulos que utilizamos y la importancia del juego para el aprendizaje en niños y niñas" property="og:description"/>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
       
 	<link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
@@ -37,7 +37,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo01" >
-                    <ul class="navbar-nav text-center nav-pills bot py-3 py-lg-0 pe-3 pe-lg-0">
+                    <ul class="navbar-nav text-center nav-pills bot py-3 py-lg-0">
                         <li><a href="{{ route('inicio') }}" class="@yield('inicio') bot my-3 my-lg-0">INICIO</a></li>
                         <li><a href="{{ route('nosotros') }}" class="@yield('nosotros') bot my-3 my-lg-0">NOSOTROS</a></li>
                         <li><a href="{{ route('servicios') }}" class="@yield('servicios') bot my-3 my-lg-0">SERVICIOS</a></li>
@@ -66,10 +66,10 @@
                     </article>
 
                     <article class="rrss_footer d-inline-flex">
-                        <a href="/" target="blank">
+                        <a href="https://www.facebook.com/profile.php?id=100084130596396" target="blank">
                             <div class=""><i class="fab fa-facebook-f"></i></div>
                         </a>
-                        <a href="/" target="blank">
+                        <a href="https://www.instagram.com/fonicokids" target="blank">
                             <div class=""><i class="fab fa-instagram"></i></div>
                         </a>
                         <a href="tel:+56993301174">

@@ -24,7 +24,7 @@
                 <p>Nuestro objetivo es entregarle a tus hijos herramientas para expresar sus necesidades y deseos y superar desafíos lingüístico-comunicativos que se presenten durante su infancia. Nuestro trabajo se sustenta en la enseñanza de habilidades comunicativas a través del juego, complementándolo con amor y respeto para propiciar un contexto amigable, cercano y cómodo para los niños y sus cuidadores.</p>
 
                 <h1 class="tit_general pt-5">misión</h1>
-                <p>Nuestra misión es mejorar la producción de los sonidos del habla y optimizar la forma en que los niños y niñas se comunican con su entorno, con el fin de mejorar la calidad de vida de nuestros niños.</p>
+                <p>Nuestra Misión es mejorar y optimizar la forma en que los niños y niñas se comunican con su entorno, con el fin de mejorarles la calidad de vida y que disfruten plenamente de su infancia </p>
             </article>
 
             <article class="col-12 col-lg-4 bg_lila text-center p-5 text-white align-content-center d-grid borde_lila" data-aos="fade-up" data-aos-delay="1200">
